@@ -1,6 +1,6 @@
 # Eyeball Tracker
 
-This exercise is a practice in dynamic styling in JavaScript, as well as using Events.
+This exercise is a practice in CSS styling and dynamic styling in JavaScript, as well as using Events.
 
 Using an EventListener, the eyes will follow the user's mouse in realtime.
 
