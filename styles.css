@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #63a8c4;
+  min-height: 100%;
+}
+
+.title {
+  color: rgb(48, 47, 47);
+  font-family: "Roboto Mono";
+  font-size: 4rem;
+  text-align: center;
+}
+
+.eyes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye {
+  width: 25vw;
+  height: 18vh;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.eyeball {
+  width: 8vw;
+  height: 12vh;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.btnEyeColor {
+  position: absolute;
+  top: 80%;
+  /* left: 75%; */
+  background: #e0e8eb;
+  margin: 4%;
+  padding: 2%;
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+}
+.btnEyeColor:hover {
+  background: #ffffff;
+  transform: scale(1.1);
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .eyes {
+    top: 55%;
+  }
+  .eye {
+    width: 25vw;
+    height: 16vh;
+  }
+  .eyeball {
+    width: 8vw;
+    height: 10vh;
+  }
+}
